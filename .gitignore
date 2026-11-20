@@ -1,0 +1,9 @@
+Set-Content -Path .gitignore -Encoding Ascii -Value @"
+node_modules/
+dist/
+.env
+*.db
+*.db-shm
+*.db-wal
+backend/data/
+.DS_Store
